@@ -39,7 +39,7 @@ with open('C:/Jmeter/apache-jmeter-5.4.1/apache-jmeter-5.4.1/bin/demo1.csv') as 
 
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'rohit.wage@tietoevry.com;sagar.rayate@tietoevry.com'
+mail.To = 'rohit.wage@tietoevry.com'
 mail.Subject = 'Status | Jmeter Validation'
 mail.Body = '***************'
 mail.HTMLBody = body
