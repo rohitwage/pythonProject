@@ -10,7 +10,7 @@ FStatus = FinalStatus.iloc[0]['TestCase']
 df = pd.read_csv('C:/Jmeter/apache-jmeter-5.4.1/apache-jmeter-5.4.1/bin/demo1.csv')
 
 print(df.tail(5))
-new_df = df.tail(20)
+new_df = df.tail(22)
 print(df.count())
 
 body = """\
@@ -46,7 +46,7 @@ with open('C:/Jmeter/apache-jmeter-5.4.1/apache-jmeter-5.4.1/bin/demo1.csv') as 
 
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'rohit.wage@tietoevry.com'
+mail.To = 'rohit.wage@tietoevry.com;sagar.rayate@tietoevry.com'
 mail.Subject = 'Discovery validation Status :'+FStatus
 mail.Body = '***************'
 mail.HTMLBody = body
