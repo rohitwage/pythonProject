@@ -81,7 +81,7 @@ with open('C:/Jmeter/apache-jmeter-5.4.1/apache-jmeter-5.4.1/bin/demo1.csv') as 
 
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'rohit.wage@tietoevry.com'
+mail.To = 'DLMSSSITSMDiscovery@tieto.com;rohit.wage@tietoevry.com;sagar.rayate@tietoevry.com'
 mail.Subject = 'Discovery Status | '+FName+': '+Fstatus
 mail.Body = '***************'
 mail.HTMLBody = body
